@@ -3,7 +3,7 @@
 <h1 align="center">
     <a href="http://smart.ufscar.br/">🔗 SmartUfscar</a>
 </h1>
-<p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
+
 
 # Clone este repositório
 $ git clone <link repositorio>
