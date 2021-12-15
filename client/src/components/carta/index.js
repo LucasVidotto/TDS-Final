@@ -2,7 +2,7 @@ import React,{useState,Fragment} from  'react';
 
 import "../cards/cards.css";
 
-import Form from "../busca/index";
+import Form from "../Busca/index";
 
 export default function Card(props) {
   const [open, setOpen] = useState(false);
