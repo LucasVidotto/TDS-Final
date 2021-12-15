@@ -1,0 +1,49 @@
+body{
+	background-image: url(../assets/img/Logo.png) center top no-repeat;
+    /*background-image:linear-gradient(red,yellow);*/
+	background-size:90%;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+
+
+@media (min-width: 360px){
+    body{
+        background-image: url(../assets/img/Logo.png);
+        /*background-image:linear-gradient(red,yellow);*/
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size: cover;
+        background-attachment:fixed;
+        background-size: 100%;
+    }
+}
+@media (min-width: 768px) {
+    body{
+        background-image: url(../assets/img/Logo.png);
+        /*background-image:linear-gradient(red,yellow);*/
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size: cover;
+        background-attachment:fixed;
+        background-size: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+   body{
+        background-image: url(../assets/img/Logo.png);
+        /*background-image:linear-gradient(red,yellow);*/
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment:fixed;
+        background-size: 93%;
+    }
+}

@@ -1,0 +1,58 @@
+.over {
+
+    opacity: 0;
+  
+  }
+  
+  .foto:hover .over {
+    opacity: 0.8;
+  }
+  
+  .foto{
+    display: block;
+    float:left;
+    margin-bottom: 100px;
+      
+  }
+  
+  .image{
+  
+    width:230px;
+    height: 230px;
+    border-radius: 50%;
+  
+  }
+
+  .image-lateral{
+    width:100%;
+    padding-top: 10%;
+  }
+  .image-dir{
+
+    width:230px;
+    height: 230px;
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+  }
+
+  .image-esq{
+    
+    width:230px;
+    height: 230px;
+    border-radius: 15%;
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+
+  .image:hover, .image-esq:hover, .image-dir:hover{
+    width:230px;
+    height: 230px;
+    border-radius: 0%;
+  }
+  
+  
+  

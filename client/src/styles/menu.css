@@ -1,0 +1,145 @@
+body,
+html{
+	margin:  0; 
+	padding: 0;
+	font-size:18px;
+}
+
+
+
+a, a img{
+	text-decoration:none;
+	border:none;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+.principal{
+	width: 960px;
+	color: #000000;
+	margin: 0 auto;
+	font-family:sans-serif;
+}
+
+.cabecalho, 
+.logo, 
+.rodape,
+.menu{
+	width:100%;
+	display:block;
+	clear:both;
+}
+.cabecalho{
+	height:100px;
+}
+.logo-cabecalho{
+	float:left;
+}
+.logo-cabecalho a{
+	font-size:50px;
+	font-style:italic;
+	text-decoration:none;
+	color:#000;
+	display:block;
+	padding:20px 0 0 0;
+}
+.logo{
+	float:right;
+	margin-top:40px;
+	margin-right:10px;
+}
+.menu{
+	/*background: rgba(119,170,224,0.8);
+	border-radius: 10px;*/
+	/* From https://css.glass */
+	background: rgba(119,170,224,0.5);
+	border-radius: 10px;
+	box-shadow: 0 4px 30px rgba(241, 183, 183, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.menu ul li, 
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li{
+	display:inline-block;
+}
+.menu ul li a{
+	display:block;/*barra dos link(tamanho)*/
+	color: black;/*cor branca*/
+	padding:13px 20px;/*tamanho dos link*/
+}
+
+ .menu ul li a:hover{	
+	/*background:rgba(201, 186, 186, 0.938);*/
+	background-image: linear-gradient(blue,grey,red);
+	border-radius: 10px;
+	color:white;
+	transition: 0.5s;
+}
+ul{
+	 margin-left: 30%;
+}
+.corpo{
+	position:relative;
+	overflow:hidden;
+}
+.artigos{
+	float:left;
+}
+.artigos, .artigos:before{
+	width:70%;
+}
+.artigos:before{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	background: rgba(255,255,255,0.6);
+	z-index:-1;
+	content:'';
+}
+.barra-lateral{
+	float:right;
+}
+.barra-lateral, .barra-lateral:before{
+	width:30%;
+}
+.barra-lateral:before{
+   content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	right:0;
+    z-index: -1;
+	background-color: rgba(241,241,241,0.5);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+}
+.espacamento{
+	padding:20px;
+}
+.rodape{
+	padding:20px;
+	text-align:center;
+}
+
+.inter{
+	margin:auto;
+	width: 315px;
+    height: 25px;
+    background-color: black;
+    color: #FFF;
+}
+
+.inter.a:before{
+	color: white;
+}
+

@@ -1,0 +1,41 @@
+<div classNome="corpo">
+				<div className="arti">
+					<div className="espacamento">
+						<div className="foto">
+							<legend className="legen">
+								Carlos Henrique Carlos<br />
+								Coordenador
+							</legend>
+							<p><Link to={{pathname:"https://www.google.com.br"}} target="__blank">
+								<img src={Carlos}
+								className="image"
+								title="lattes"
+								align="left"
+								style={styles}
+								/></Link>
+								<b>&nbsp;&nbsp;&nbsp;&nbsp;Formação</b>:<br /><br />
+								<p className="texto">Graduação em Engenharia de Materiais(UFSCar)<br /></p>
+								<p className="texto">Mestre em Engenharia dos Materiais(UFSCar)<br /></p>
+								<p className="texto">Doutor em Ciência e Engenharia dos Materias(UFSCar)<br /></p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="barra-lateral">
+					<div className="espacamento">
+						Entrevista para o LAbI: <p className="resumo">Pesquisas da UFSCar desenvolvem materiais que atuam como músculos artificiais</p>
+						<td className="f1" rowspan="6"><a href="http://www.labi.ufscar.br/2017/01/03/pesquisas-da-ufscar-desenvolvem-materiais-que-atuam-como-musculos-artificiais/  "><img title="" src="imagem/video.jpg" alt="poster"/></a></td>
+						
+						<p>
+							<img src="" alt="Graficos" className="vertical-img"/>
+						</p>
+						<p>
+							<img src="" className="vertical-img" />
+						</p>
+						<p>
+							<img src="" className="vertical-img" />
+						</p>
+					</div>
+				</div>
+			</div>

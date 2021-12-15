@@ -1,0 +1,45 @@
+.texto
+{
+
+font-family: Arial;
+text-indent: 1.5em;
+line-height: 1.5;
+
+}
+.legen{
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.resumo{
+
+    font-family: Arial;
+    font-size: 20px;
+    text-indent: 5%;
+    margin-top: 1.53em;
+    line-height: 1.5;
+
+}
+
+.resumo::selection{
+    background-color: black;
+    color:white;
+}
+
+.texto2
+{
+font-weight:bold;
+font-family: Arial;
+text-indent: 1.5em;
+line-height: 1.5;
+
+}
+
+.pub{
+	
+	font-family: Arial;
+
+	line-height: 1.5;
+}

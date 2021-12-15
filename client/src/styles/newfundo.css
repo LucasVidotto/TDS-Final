@@ -1,0 +1,41 @@
+.arti{
+	float:left;
+
+}
+
+.arti, .arti:before{
+    height: 600%;
+	width:71%;
+
+}
+
+.arti:before{
+	position:absolute;
+	background: rgba(244, 244, 244,0.884);
+	z-index:-1;
+	content:'';
+}
+
+.fundonew{
+	
+}
+
+.fundonew{
+	float:left;
+
+}
+
+.fundonew, .fundonew:before{
+    height: 100%;
+	width:100%;
+
+}
+
+.fundonew:before{
+	position:absolute;
+	background-color: rgba(241,241,241,0.5);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	z-index:-1;
+	content:'';
+}
